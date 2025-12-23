@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    padding: 10px; /* Add small padding for edge cases */
+}
+
+
+/* Pages */
+.page {
+    display: none;
+    animation: fadeIn 1.5s ease;
+}
+
+.active {
+    display: block;
+}
+
+/* Letter Generator */
+.container {
+    background: white;
+    width: 450px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+p {
+    margin: auto;
+}
+
+h1 {
+    color: #e75480;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #e75480;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #e75480;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d1436f;
+}
+
+/* Letter Box */
+#letterBox {
+    margin-top: 25px;
+    padding: 20px;
+    background: #fff0f5;
+    border-radius: 12px;
+    display: none;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #c2185b;
+    text-align: left;
+}
+
+/* Question Page */
+.buttons button {
+    width: auto;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.yes {
+    background: #ff4d6d;
+}
+
+.no {
+    background:  #ff4d6d;
+    cursor: not-allowed;
+}
+
+/* Flower animation */
+.flower {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-50px) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

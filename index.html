@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <title>Lovely Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 0 : LETTER GENERATOR -->
+<div class="container page active" id="page0">
+    <h1>💌 Lovely Letter Generator 💌</h1>
+
+    <label>First Name</label>
+    <input type="text" id="firstName" placeholder="Enter first name">
+
+    <label>Last Name</label>
+    <input type="text" id="lastName" placeholder="Enter last name">
+
+    <button onclick="generateLetter()">Generate Letter</button>
+
+    <div id="letterBox"></div>
+
+    <button id="nextBtn" onclick="goToQuestion()" style="display:none;">
+        Next 💖
+    </button>
+</div>
+
+<!-- PAGE 1 : QUESTION -->
+<div class="page" id="page1">
+    <h1>💖 My Love Letter 💖</h1>
+    <p>
+        Every day feels brighter when I think about you.  
+        You bring happiness, warmth, and smiles into my life.  
+        I just want to be honest with my heart today.
+    </p>
+
+    <div class="buttons">
+        <h2>Will you be my girlfriend?</h2>
+        <button class="yes" onclick="goNext()">YES 💕</button>
+        <button class="no">NO</button>
+    </div>
+</div>
+
+<!-- PAGE 2 : SURPRISE -->
+<div class="page" id="page2">
+    <h1>🌸 Thank You My Girlfriend 🌸</h1>
+    <p>
+       Today is my lucky day.  
+        My heart is happy, and I promise to care, respect,
+        and always support you.
+    </p>
+    <p>💗 You make my world more beautiful 💗</p>
+    <p>  💗  You're the apple of my eyes 💗</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
