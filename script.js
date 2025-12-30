@@ -38,11 +38,17 @@ ${firstName} ${lastName} နဲ့ မတွေ့ခင်ကဆို ကိ�
 အချစ်ဆို ဝေးဝေးရှောင်တယ်။
 ${firstName} ${lastName} နဲ့ကျတော့ တစ်ချက်ထဲနဲ့ အဲဒီအရာကို ကိုရဖိုကြိုးစားနေရပြီး။
 <br><br>
+ကိုနှလုံးသားက နားလည်ရခဲ့တယ်။ ကိုယ်ကိုတိုင် နားမလည်ဘူး။ ကိုယ်မှာ fav type လည်းမရှိဘူး။ 
+လူတစ်ယောက်ကို အမြဲတွေ့နေပါစေ ကိုနှလုံးသားက လက်မခံရင် မချစ်ဘူး။ 
+တစ်ကြိမ်ပဲတွေ့တဲ့ လူတစ်ယောက်ဖြစ်ပါစေ ကိုနှလုံးသားက လက်ခံလိုက်ရင် ကိုတကယ်အဲ့လူတစ်ယောက်အတွက်နဲ့ တစ်ကမ္ဘာလုံးကိုဆန့်ကျင်နေပြီး။
+<br><br>
+No matter who you are, where you come from, or what you have been through. 
+<br><br>
 တကယ်တော့.... ကိုက red flag တခြားသူအတွက်ဆိုရင် လုံးဝ red flag ။ but
 ${firstName} ${lastName} အတွက်ဆိုရင် မီးခွက်စောင့်ဘီလူးအဖြစ် ${firstName} ${lastName} အတွက် ရပ်တည်ပေးနေမယ်။ 
 တစ်သက်လုံး အချစ်အတွက် ဖြစ်တည်ပေးနေမယ်။
 <br><br>
-Your beauty is power for me
+Your beauty is power for me, 
 Your smile is sword.<br><br>
 ${firstName} ${lastName}ရဲ့ အဖြေက ကိုယ်ကြားချင်နေတဲ့အတိုင်းဆို ကောင်းမှာပဲ။ ဒါမှမဟုတ်ရင် ဒီအတိုင်းဆက်ရှိနေပေးမှာပါ။ 
 ဒါပေမဲ့ ရပါတယ် ${firstName} ${lastName} သဘောပါ၊ ${firstName} ${lastName} ဆန္ဒအတိုင်းပါပဲ။
@@ -86,3 +92,4 @@ function startFlowers() {
         setTimeout(() => flower.remove(), 6000);
     }
 }
+
